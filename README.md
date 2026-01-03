@@ -111,10 +111,9 @@ The application features a premium, glassmorphism-inspired UI organized into **6
 | **Monitoring** | **ELK Stack** | Centralized Logging & Visualization |
 | **Version Control** | **Git & GitHub** | SCM & CI/CD Readiness |
 
-<img width="940" height="582" alt="image" src="https://github.com/user-attachments/assets/baa9b896-f923-4e14-bad0-eb95fb1f56d4" />
-
 <img width="1202" height="834" alt="image" src="https://github.com/user-attachments/assets/e86c1e1e-e01a-4a11-b5cd-ea82663bd1cc" />
 
+<img width="650" height="820" alt="image" src="https://github.com/user-attachments/assets/0a147e32-1354-450d-8c8a-9aeed743d7c2" />
 
 
 ---
@@ -252,7 +251,7 @@ This project implements a full **LLMOps Pipeline** to ensure AI reliability.
 
 ![ELK Flow](Diagarm/Architeure%20Diagram/ELK_Flow.jpg)
 
-<img width="650" height="820" alt="image" src="https://github.com/user-attachments/assets/0a147e32-1354-450d-8c8a-9aeed743d7c2" />
+<img width="940" height="582" alt="image" src="https://github.com/user-attachments/assets/baa9b896-f923-4e14-bad0-eb95fb1f56d4" 
 
 ---
 
