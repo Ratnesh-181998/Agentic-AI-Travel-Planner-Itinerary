@@ -37,6 +37,11 @@ The **Agentic AI Travel Planner** is a state-of-the-art Generative AI applicatio
 
 It is engineered as a **Production-Ready System**, featuring a microservices architecture containerized with Docker, orchestrated by Kubernetes, and fully monitored via the ELK Stack (Elasticsearch, Logstash, Kibana).
 
+## 🌐🎬 Live Demo
+🚀 **Try it now:**
+- **Streamlit Profile** - [Live Link](https://share.streamlit.io/user/ratnesh-181998)
+- **Project Demo** - [Live Link](https://agentic-ai-travel-planner-itinerary-mrb6ja4iv2ps3jswuqfimt.streamlit.app/)
+
 ---
 
 ## 2. ✨ Key Features
@@ -266,7 +271,7 @@ This project implements a full **LLMOps Pipeline** to ensure AI reliability.
 
 
 ### 🔗 Project Resources
-*   **Live Demo:** [Streamlit App](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
+*   **Live Demo:** [Streamlit App](https://agentic-ai-travel-planner-itinerary-mrb6ja4iv2ps3jswuqfimt.streamlit.app/)
 *   **Documentation:** [GitHub Wiki](https://github.com/Ratnesh-181998/Agentic-AI-Travel-Planner-Itinerary/wiki)
 *   **Report Issue:** [GitHub Issues](https://github.com/Ratnesh-181998/Agentic-AI-Travel-Planner-Itinerary/issues)
 
