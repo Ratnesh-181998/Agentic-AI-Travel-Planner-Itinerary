@@ -121,7 +121,7 @@ The application features a premium, glassmorphism-inspired UI organized into **6
     *   🟨 **Containerization Layer:** Docker, K8s Pods.
     *   🟪 **Cloud Layer:** GCP VM, Version Control.
     *   🟩 **Build & Monitor:** Deployment & ELK tracking.
-      
+
 <img width="1482" height="600" alt="image" src="https://github.com/user-attachments/assets/019c2cae-fb05-4925-804b-f31aaf8088db" />
 <img width="1590" height="572" alt="image" src="https://github.com/user-attachments/assets/68cf2485-4516-4fc5-bfa2-9398ecc5dd48" />
 <img width="1083" height="745" alt="image" src="https://github.com/user-attachments/assets/fbc81262-c4e2-49cb-9fbc-caa2b71f166a" />
