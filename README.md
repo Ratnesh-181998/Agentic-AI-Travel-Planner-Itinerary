@@ -49,7 +49,56 @@ It is engineered as a **Production-Ready System**, featuring a microservices arc
 
 ---
 
-## 3. 🛠️ Technology Stack
+## 3. 🖼️ User Interface & Dashboard Tabs
+
+The application features a premium, glassmorphism-inspired UI organized into **6 Interactive Tabs**, designed for both user engagement and technical deep-dives.
+
+### 1️⃣ Demo Tab 🎯
+**The Core Experience:**
+*   **Live AI Travel Planner:** Interactive form to input City and Interests.
+*   **Real-Time Generation:** Watches the AI agent reason and build the itinerary live.
+*   **Visual Showcase:** Dynamic image grid representing different travel themes.
+*   **User Experience:** Includes sidebar tips, request statistics, and auto-logging to the system monitor.
+
+### 2️⃣ About Tab 📖
+**Project Context & Positioning:**
+*   **Objectives:** Breakdowns of Personalized AI Itineraries, Budget-Aware Planning, and Fast Inference.
+*   **Key Highlights:** Focuses on Agentic Workflows, Real-Time Generation, and LLMOps readiness.
+*   **Resume-Ready Points:** "Click to view" expander with bullet points tailored for technical interviews.
+
+### 3️⃣ Tech Stack Tab 🛠️
+**Deep Dive into Technologies:**
+*   **AI/GenAI Layer:** Groq LPU™ & LangChain orchestration.
+*   **Frontend:** Streamlit with custom CSS.
+*   **Cloud & Infra:** GCP VM, GitHub Actions.
+*   **Containerization:** Docker & Kubernetes (Minikube).
+*   **Observability:** Full ELK Stack (Filebeat, Logstash, Elasticsearch, Kibana).
+
+### 4️⃣ HLD & LLD Tab 🏗️
+**System Design Breakdown:**
+*   **High-Level Design (HLD):** Architecture diagrams showing User, AI, App, Infra, and Observability layers.
+*   **Low-Level Design (LLD):** Detailed component views including `app.py`, `config.py`, and `planner.py` logic flows.
+*   **Comparison Table:** a clear breakdown of HLD vs. LLD for educational purposes.
+
+### 5️⃣ Architecture Tab 📐
+**The Production Workflow:**
+*   **17-Step Execution Flow:** From User Input to Kubernetes Deployment.
+*   **4-Layer Defense:**
+    *   🟦 **Development Layer:** Setup, Config, Logic.
+    *   🟨 **Containerization Layer:** Docker, K8s Pods.
+    *   🟪 **Cloud Layer:** GCP VM, Version Control.
+    *   🟩 **Build & Monitor:** Deployment & ELK tracking.
+
+### 6️⃣ System Logs Tab 📊
+**Real-Time LLM Observability:**
+*   **Live Monitoring:** View system logs with accurate **IST Timezone** timestamps.
+*   **Health Status:** Color-coded (Green=Success, Red=Error) indicators.
+*   **Metrics:** Real-time counters for Total Requests, Success Rate, and Error Rate.
+*   **Audit Trail:** Complete history of every user interaction and AI response.
+
+---
+
+## 4. 🛠️ Technology Stack
 
 | Domain | Tech | Role |
 | :--- | :--- | :--- |
