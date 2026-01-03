@@ -1,6 +1,4 @@
 
-![Banner](assets/travel_hill.png)
-
 # ✈️ Agentic AI Travel Planner & Itinerary Generator
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
@@ -9,6 +7,11 @@
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Elastic Stack](https://img.shields.io/badge/Elastic_Stack-005571?style=flat&logo=elasticsearch&logoColor=white)](https://www.elastic.co/)
+
+<img width="569" height="267" alt="image" src="https://github.com/user-attachments/assets/bc386a73-7a90-4e54-afab-3a7196b09cb2" />
+
+![Banner](assets/travel_hill.png)
+
 
 **An Enterprise-Grade, Agentic GenAI Application for Personalized Travel Planning.**
 
