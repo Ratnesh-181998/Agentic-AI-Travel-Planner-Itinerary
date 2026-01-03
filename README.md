@@ -274,7 +274,7 @@ This project implements a full **LLMOps Pipeline** to ensure AI reliability.
 
 **This project is licensed under the MIT License.**
 
-Copyright © 2024 Ratnesh Kumar Singh
+Copyright © 2026 Ratnesh Kumar Singh
 
 </div>
 
