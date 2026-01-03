@@ -1,0 +1,106 @@
+
+
+
+🧠 Project: AI Travel Planner (Agentic GenAI Application)
+🔍 Project Overview
+An AI-powered travel planning system that generates personalized end-to-end travel itineraries (destinations, schedules, activities, budgets) using LLM reasoning, deployed as a cloud-native, containerized application with production-grade monitoring and logging.
+The system combines agentic AI workflows, real-time user interaction, and DevOps + LLMOps best practices.
+________________________________________
+🏗️ High-Level Architecture (HLD)
+User (Web UI)
+   ↓
+Streamlit Frontend
+   ↓
+LangChain Orchestration Layer
+   ↓
+Groq LLM (Fast Inference)
+   ↓
+Travel Planning Agent (Reasoning + Tool Logic)
+   ↓
+Response Generation
+Infrastructure & Ops Layer
+Docker → Kubernetes (Minikube)
+Logs → Filebeat → Logstash → Elasticsearch
+Visualization → Kibana
+________________________________________
+🧩 Low-Level Design (LLD)
+1️⃣ Frontend (Streamlit)
+•	Collects user inputs:
+o	Destination
+o	Travel dates
+o	Budget
+o	Preferences (adventure, leisure, food, culture)
+•	Displays:
+o	Day-wise itinerary
+o	Estimated cost breakdown
+o	Activity recommendations
+________________________________________
+2️⃣ Agentic AI Layer (LangChain)
+•	Prompt templates for:
+o	Trip reasoning
+o	Budget optimization
+o	Schedule planning
+•	Chain-of-thought style planning
+•	Context-aware itinerary generation
+________________________________________
+3️⃣ LLM Layer (Groq)
+•	Ultra-low latency inference
+•	Handles:
+o	Natural language understanding
+o	Multi-day itinerary reasoning
+o	Personalized recommendations
+________________________________________
+4️⃣ Containerization & Deployment
+•	Docker
+o	Streamlit app
+o	LangChain backend
+•	Kubernetes (Minikube)
+o	Pod orchestration
+o	Service exposure
+o	Scaling simulation
+________________________________________
+5️⃣ Observability & Monitoring (ELK Stack)
+•	Filebeat → Collects container logs
+•	Logstash → Parses & enriches logs
+•	Elasticsearch → Indexes logs
+•	Kibana → Dashboards:
+o	User queries
+o	LLM response latency
+o	Error analysis
+________________________________________
+⚙️ Tech Stack (Resume-Optimized)
+AI / GenAI
+•	Groq LLM
+•	LangChain (Agentic workflows)
+•	Prompt Engineering
+Frontend
+•	Streamlit
+Cloud / DevOps / LLMOps
+•	Docker
+•	Kubernetes (Minikube)
+•	CI/CD-ready architecture
+Monitoring & Logging
+•	Elasticsearch
+•	Logstash
+•	Filebeat
+•	Kibana (ELK Stack)
+________________________________________
+📌 Key Features
+•	Personalized AI-generated travel itineraries
+•	Budget-aware trip planning
+•	Fast LLM inference using Groq
+•	Production-grade logging & observability
+•	Fully containerized & Kubernetes-deployable
+•	Scalable, modular agent-based architecture
+________________________________________
+🧠 Bullets 
+AI Travel Planner | GenAI, LLMOps, Kubernetes
+•	Built an agentic AI travel planner using LangChain and Groq LLM to generate personalized, multi-day itineraries based on user preferences and budget.
+•	Designed a cloud-native architecture with Docker and Kubernetes (Minikube) for scalable deployment.
+•	Implemented LLMOps observability using ELK Stack (Filebeat, Logstash, Elasticsearch, Kibana) for real-time monitoring and log analytics.
+•	Developed an interactive Streamlit UI for real-time user interaction and itinerary visualization.
+•	Applied prompt engineering and structured reasoning workflows to ensure coherent, context-aware travel planning.
+
+
+
+

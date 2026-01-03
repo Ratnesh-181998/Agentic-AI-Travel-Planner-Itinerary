@@ -1,0 +1,159 @@
+
+Tech stack :
+
+1.	Groq → LLM (free)
+2.	GCP VM → To deploy and run your app on the cloud within a Virtual Machine. It's a service offered by Google Cloud.
+3.	Langchain → Generative AI Framework to interact with LLM
+4.	Minikube → Making a Kubernetes Cluster inside a VM
+5.	Docker → For containerization of the app during deployment
+6.	Streamlit → To make UI or frontend of the app
+7.	Kubectl → CLI tool for Kubernetes to interact with Minikube
+8.	GitHub → It will work as a SCM for your project.
+9.	FileBeat → Read logs from your Kubernetes Servers/Applications and forwards them.
+10.	Logstash → Processes logs from Filebeat like cleaning of logs, adding tags, etc. before sending them to storage.
+11.	ElasticSearch → Stores logs in a searchable format so that we can easily access logs.
+12.	Kibana → Provides you dashboard services to beautifully view your logs.
+
+
+>>>>>>>>>>>>>>>
+🔧 AI Travel Planner – Complete Tech Stack (Explained)
+ 
+ 
+ 
+________________________________________
+🧠 1. AI / GenAI Layer
+Groq (LLM – Free Tier)
+•	Used as the Large Language Model for itinerary generation
+•	Handles:
+o	Destination planning
+o	Day-wise schedule creation
+o	Budget-aware recommendations
+•	Chosen for ultra-fast inference and cost efficiency
+LangChain
+•	Acts as the GenAI orchestration framework
+•	Responsible for:
+o	Prompt templates
+o	Agent-style reasoning
+o	Context chaining between user input and LLM output
+•	Enables agentic travel planning workflows
+________________________________________
+🎨 2. Frontend Layer
+Streamlit
+•	Used to build the interactive web UI
+•	Features:
+o	User input forms (destination, budget, dates, preferences)
+o	Real-time itinerary display
+o	Clean, responsive interface
+•	Enables rapid prototyping + demo-ready UI
+________________________________________
+☁️ 3. Cloud & Infrastructure Layer
+GCP Virtual Machine
+•	Hosts the complete application stack
+•	Provides:
+o	Compute resources
+o	Network access
+o	Persistent runtime environment
+•	Acts as the base infra for Kubernetes + Docker
+________________________________________
+🐳 4. Containerization & Orchestration
+Docker
+•	Containerizes:
+o	Streamlit frontend
+o	LangChain backend
+•	Ensures:
+o	Environment consistency
+o	Easy deployment
+o	Portability across environments
+Minikube
+•	Runs a local Kubernetes cluster inside the GCP VM
+•	Used to simulate production-like K8s behavior
+•	Helps demonstrate:
+o	Pod lifecycle
+o	Service exposure
+o	Scaling concepts
+kubectl
+•	CLI tool to:
+o	Deploy pods
+o	Expose services
+o	Debug containers
+•	Used for Kubernetes cluster management
+________________________________________
+🔁 5. Source Control
+GitHub
+•	Acts as SCM (Source Code Management)
+•	Used for:
+o	Version control
+o	Collaboration
+o	CI/CD readiness
+•	Enables recruiter visibility and project traceability
+________________________________________
+📊 6. Logging & Observability (ELK Stack)
+ 
+ 
+ 
+Filebeat
+•	Runs as a log collector
+•	Reads logs from:
+o	Kubernetes pods
+o	Application containers
+•	Forwards logs to Logstash
+________________________________________
+Logstash
+•	Processes incoming logs:
+o	Cleans raw log data
+o	Adds metadata / tags
+o	Formats logs for indexing
+•	Acts as the log processing pipeline
+________________________________________
+Elasticsearch
+•	Stores logs in searchable indexed format
+•	Supports:
+o	Fast querying
+o	Time-based log retention
+•	Used for debugging and performance analysis
+________________________________________
+Kibana
+•	Visualization & dashboard layer
+•	Displays:
+o	Error trends
+o	Daily log counts
+o	Application health metrics
+•	Enables production-grade observability
+________________________________________
+🔗 End-to-End Flow (Simple)
+User → Streamlit UI
+     → LangChain Agent
+     → Groq LLM
+     → AI Travel Plan
+
+App Logs
+→ Filebeat
+→ Logstash
+→ Elasticsearch
+→ Kibana Dashboard
+________________________________________
+📌 Resume-Ready Tech Stack (ATS Optimized)
+AI / GenAI
+•	Groq LLM
+•	LangChain (Agentic workflows)
+•	Prompt Engineering
+Frontend
+•	Streamlit
+Cloud & DevOps
+•	Google Cloud VM
+•	Docker
+•	Kubernetes (Minikube)
+•	kubectl
+LLMOps / Observability
+•	Filebeat
+•	Logstash
+•	Elasticsearch
+•	Kibana (ELK Stack)
+Version Control
+•	GitHub
+________________________________________
+🔥 Product-Level Positioning Line
+Designed and deployed an Agentic AI Travel Planner using LangChain and Groq LLM, containerized with Docker, orchestrated via Kubernetes (Minikube), and monitored using a full ELK-based LLMOps observability stack on GCP.
+
+
+>>>>>
