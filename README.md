@@ -10,8 +10,6 @@
 
 <img width="569" height="267" alt="image" src="https://github.com/user-attachments/assets/bc386a73-7a90-4e54-afab-3a7196b09cb2" />
 
-![Banner](assets/travel_hill.png)
-
 
 **An Enterprise-Grade, Agentic GenAI Application for Personalized Travel Planning.**
 
