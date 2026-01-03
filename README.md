@@ -205,7 +205,7 @@ This project implements a full **LLMOps Pipeline** to ensure AI reliability.
 ## 9. Developer & Project Resources 
 
 **Ratnesh Kumar Singh | Data Scientist (AI/ML Engineer)**
-> *Specializing in Generative AI, LLMOps, and Scalable System Design.*
+> *Specializing in AI/ML ,Agentic & Generative AI, MLOps,LLMOps,AIOps and Scalable System Design.*
 
 
 ### 🔗 Project Resources
