@@ -21,12 +21,14 @@ try:
     ASSETS_DIR = os.path.join(PROJECT_ROOT, 'assets')
     DIAGRAMS_DIR = os.path.join(PROJECT_ROOT, 'Diagarm', 'Architeure Diagram') # Preserving folder name 'Diagarm'
     HLD_LLD_DIR = os.path.join(PROJECT_ROOT, 'Diagarm', 'HLD & LLD Daigram') # Preserving typo 'Daigram'
+    ABOUT_DIAGRAM_DIR = os.path.join(PROJECT_ROOT, 'Diagarm', 'About Diagram')
 except Exception as e:
     st.error(f"Error configuring paths: {str(e)}")
     # Fallback to current directory if something goes wrong
     ASSETS_DIR = '.'
     DIAGRAMS_DIR = '.'
     HLD_LLD_DIR = '.'
+    ABOUT_DIAGRAM_DIR = '.'
 
 # Page configuration
 st.set_page_config(
@@ -936,7 +938,7 @@ with tab2:
     # Architecture Diagram
     st.markdown("### 🏗️ System Architecture")
     try:
-        st.image(r"C:\Users\rattu\Downloads\3_AI TRAVEL PLANNER\Local Run\Diagarm\About Diagram\Picture1.png", use_container_width=True, caption="Agentic AI Travel Planner Architecture")
+        st.image(os.path.join(ABOUT_DIAGRAM_DIR, "Picture1.png"), use_container_width=True, caption="Agentic AI Travel Planner Architecture")
     except Exception:
         st.info("Architecture diagram placeholder.")
 
