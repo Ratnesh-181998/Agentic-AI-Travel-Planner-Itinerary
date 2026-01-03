@@ -1,4 +1,6 @@
 
+![Banner](assets/travel_hill.png)
+
 # ✈️ Agentic AI Travel Planner & Itinerary Generator
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
