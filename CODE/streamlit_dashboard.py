@@ -1187,7 +1187,7 @@ with tab4:
     # HLD Diagram
     col1, col2 = st.columns([1.5, 1])
     with col1:
-    with col1:
+
         try:
             st.image(os.path.join(HLD_LLD_DIR, "Picture1.png"), use_container_width=True, caption="HLD Architecture Diagram")
         except:
